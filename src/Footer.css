@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: grey;
+    padding: 70px 0;
+
+}
+
+.footer-col {
+    width: 20%;
+    padding: 0 15px;
+
+}
+
+.footer-col h4 {
+    font-size: 13px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    box-sizing: border-box;
+}
+
+.footer-col ul li a {
+    font-size: 12px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: white;
+    padding-left: 8px
+}
+
+.footer-col ul select {
+    background-color: grey;
+    color: white;
+    border: 1px solid rgb(242, 232, 232);
+    align-items: center;
+    padding-left: 15px;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.footer-copyright h4 {
+    font-size: 12px;
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 300;
+}
+
+.footer-copyright h4 li a {
+    flex-wrap: wrap;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.footer-copyright {
+    position: relative;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.footer-col .footer-social i {
+    display: inline-block;
+    /* height:5px; */
+    /* width: 30px; */
+    text-align: center;
+    flex-wrap: wrap;
+    line-height: 60px;
+    cursor: pointer;
+    color: white;
+    /* background-color:black; */
+    /* border-radius:30%; */
+}
